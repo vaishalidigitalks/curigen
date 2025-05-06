@@ -7,9 +7,9 @@ const TransparentNavbar = () => {
     <nav
       className="navbar navbar-expand-lg navbar-light fixed-top"
       style={{
-        backgroundColor: 'rgba(255, 255, 255, 0.2)', // semi-transparent white
+        backgroundColor: 'rgba(255, 255, 255, 0)', // semi-transparent white
         backdropFilter: 'blur(10px)', // optional glassmorphism
-        borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+        borderBottom: '1px solid rgba(255, 255, 255, 0)',
       }}
     >
       <div className="container">
